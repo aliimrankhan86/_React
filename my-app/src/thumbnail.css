@@ -1,0 +1,16 @@
+.thumbnail {
+  margin: 0 10px;
+  float: left;
+  width: 168px;
+  height: 94px;
+}
+
+.thumbnailtext {
+  float: left;
+  width: 164px;
+}
+
+.thumbnailtext p {
+  padding: 0;
+  margin: 0; 
+}

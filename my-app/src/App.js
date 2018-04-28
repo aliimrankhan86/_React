@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Videoplayer from './Videoplayer';
 import Logo from './Logo';
+import Thumbnailimage from './Thumbnailimage';
+import Thumbnailtext from './Thumbnailtext';
 
 class App extends Component {
   render() {
@@ -12,14 +14,10 @@ class App extends Component {
           <Logo />
           <Videoplayer />
         </div>
-        
+
         <div className="one-fourth">
-          <div className="thumbnail">
-            <img src="http://via.placeholder.com/168x94" alt="thumbnail"/>
-          </div>
-          <div className="thumbnail-text">
-              <p>Video Name</p>
-          </div>
+          <Thumbnailimage />
+          <Thumbnailtext />
         </div>
       </div> 
     );
