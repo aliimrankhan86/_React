@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Videoplayer from './Videoplayer';
 import Logo from './Logo';
-import Thumbnailimage from './Thumbnailimage';
-import Thumbnailtext from './Thumbnailtext';
+import Thumbnail from './Thumbnail';
 
 class App extends Component {
   render() {
@@ -16,8 +15,7 @@ class App extends Component {
         </div>
 
         <div className="one-fourth">
-          <Thumbnailimage />
-          <Thumbnailtext />
+          <Thumbnail/>
         </div>
       </div> 
     );

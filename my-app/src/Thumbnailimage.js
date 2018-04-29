@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
 import './thumbnail.css';
-
-class Thumbnailimage extends Component {
+import Thumbnailtext from './Thumbnailtext';
+class Thumbnailimage extends React.Component {
   render() {
     return (
-      <div className="thumbnail">
-        <img src="http://via.placeholder.com/168x94" alt="thumbnail"/>
+      <div>
+      { 
+          this.props.source.map(item => {
+            return <div>
+              <img src ={item.path} /> 
+              <p>{item.name}</p>
+              </div>
+          })
+    
+      }
       </div>
     )
   }
