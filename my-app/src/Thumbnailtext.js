@@ -6,11 +6,7 @@ class Thumbnailtext extends React.Component {
     // console.log(this.props.value);
     return (
       <div>
-      { 
-          this.props.value.map(item => {
-            return <div>{item.name}</div>
-          })
-      }
+       /* This isn't doing anything */ 
       </div>
     )
   }
