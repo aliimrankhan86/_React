@@ -4,8 +4,8 @@ import Thumbnailimage from './Thumbnailimage';
 
 class Thumbnail extends React.Component {
 
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       video: [
         {name: 'New President', Description: '2018 Election Result', path: 'http://via.placeholder.com/200x150'},
@@ -18,9 +18,7 @@ class Thumbnail extends React.Component {
     render() {
       // console.log(this.state.video[0].name)
       return (
-        <div>
         <Thumbnailimage source={this.state.video}/>
-        </div>
       )
     }
   }

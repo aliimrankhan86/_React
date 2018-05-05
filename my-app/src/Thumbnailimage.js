@@ -2,6 +2,14 @@ import React, { Component } from 'react';
 import './thumbnail.css';
 //import Thumbnailtext from './Thumbnailtext';
 class Thumbnailimage extends React.Component {
+  constructor(props) {
+    super()
+    this.state = {
+      video: [
+        {name:'Ali khan', desc: 'Something'}
+      ]
+    }
+  }
   render() {
     return (
       <div>
@@ -17,11 +25,11 @@ class Thumbnailimage extends React.Component {
                 </div>
               </div>
           })
-    
       }
       </div>
     )
   }
 }
+
 
 export default Thumbnailimage;
