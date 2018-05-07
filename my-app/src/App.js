@@ -4,6 +4,8 @@ import './App.css';
 import Videoplayer from './Videoplayer';
 import Logo from './Logo';
 import Thumbnail from './Thumbnail';
+import Searchbox from './Searchbox';
+
 
 class App extends Component {
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
       <div className="wrapper">
         <div className="third-fourth">
           <Logo />
+          <Searchbox />
           <Videoplayer />
         </div>
 
