@@ -25,7 +25,7 @@ class Thumbnail extends React.Component {
         
         console.log(data);
         console.log(this.setState = {data});
-        this.setState = {data};
+        this.setState = {data}
       }
 
 
@@ -34,7 +34,7 @@ class Thumbnail extends React.Component {
         <div>
 
         <button onClick={test}>
-          Append data
+          Append Data
         </button>
 
 
