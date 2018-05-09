@@ -18,27 +18,22 @@ class Thumbnail extends React.Component {
 
   
     render() {
-
       let test = () => {
         let data = this.state.video;
         data.push({name: 'Ali Khan', Description: 'React', path: 'http://via.placeholder.com/200x150'})
-        
         console.log(data);
         console.log(this.setState = {data});
-        this.setState = {data}
+        this.setState = {data};
       }
 
 
       // console.log(this.state.video[0].name)
       return (
         <div>
-
-        <button onClick={test}>
-          Append Data
-        </button>
-
-
-        <Thumbnailimage source={this.state.video}/>
+          <button onClick={test}>
+            Append Data
+          </button>
+          <Thumbnailimage source={this.state.video}/>
         </div>
       )
     }

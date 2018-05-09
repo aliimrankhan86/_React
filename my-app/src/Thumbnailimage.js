@@ -4,11 +4,6 @@ import './thumbnail.css';
 class Thumbnailimage extends React.Component {
   constructor(props) {
     super()
-    this.state = {
-      video: [
-        {name:'Ali khan', desc: 'Something'}
-      ]
-    }
   }
   render() {
     return (

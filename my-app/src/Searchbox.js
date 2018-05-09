@@ -9,7 +9,7 @@ class Searchbox extends React.Component {
   
     render() {
       return (
-        <input type="text" id="searchbox" placeholder="Search" />
+        <input type="text" id="searchbox" placeholder="Search Video" />
       )
     }
   }
